@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Token warna SAHATU Academy (lihat SPEC.md bagian Desain).
+   Pakai di Tailwind, misalnya: bg-cream, text-cocoa, border-beige. */
+@theme {
+  --color-cocoa: #5b4032; /* warna utama, tombol utama, judul */
+  --color-mocha: #8b6248; /* warna sekunder */
+  --color-caramel: #c49a75; /* aksen: hanya latar/dekorasi, jangan untuk teks */
+  --color-beige: #e8d8c3; /* kartu, badge */
+  --color-cream: #f7f2e9; /* latar */
+  --color-charcoal: #34302c; /* teks */
+  --color-muted: #5e5148; /* teks sekunder */
+  --color-danger: #9a3b2e; /* belum lulus / salah, selalu dengan ikon + label */
+
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+}
