@@ -2,6 +2,7 @@ import { connection } from "next/server";
 import Link from "next/link";
 import { Suspense } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
+import { formatTanggal, getSemuaAkses, masihAktif } from "@/lib/access";
 import { requireActiveUser } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 
@@ -20,6 +21,13 @@ async function Isi() {
       .order("mulai", { ascending: false })
       .limit(5),
   ]);
+  const akses = await getSemuaAkses(user.id);
+  const milik = (parts ?? [])
+    .filter((p) => user.role === "admin" || akses.has(p.id))
+    .map((p) => {
+      const sampai = akses.get(p.id) ?? null;
+      return { p, sampai, aktif: user.role === "admin" || masihAktif(sampai) };
+    });
   const tgl = (s: string) =>
     new Date(s).toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Jakarta" });
 
@@ -28,19 +36,35 @@ async function Isi() {
       <h1 className="text-3xl font-extrabold text-cocoa">Halo, {user.nama ?? "pejuang NIP"}!</h1>
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-xl font-extrabold text-cocoa">Tryout</h2>
-        {(parts ?? []).length === 0 && <p className="text-muted">Belum ada tryout yang terbit.</p>}
-        <div className="grid gap-3 sm:grid-cols-2">
-          {(parts ?? []).map((p) => (
-            <Link
-              key={p.id}
-              href={`/tryout/${p.kode}`}
-              className="flex flex-col gap-1 rounded-2xl border border-beige bg-white p-5 hover:border-cocoa"
-            >
-              <span className="text-lg font-extrabold text-cocoa">{p.nama}</span>
-              {p.deskripsi && <span className="text-sm text-muted">{p.deskripsi}</span>}
-              {p.status === "draft" && <span className="text-xs font-bold text-muted">DRAFT · hanya terlihat admin</span>}
+        <div className="flex items-baseline justify-between">
+          <h2 className="text-xl font-extrabold text-cocoa">Paket saya</h2>
+          <Link href="/katalog" className="text-sm font-bold text-cocoa underline">
+            Katalog
+          </Link>
+        </div>
+        {milik.length === 0 && (
+          <div className="flex flex-col items-start gap-3 rounded-2xl border border-beige bg-white p-5">
+            <p>Kamu belum punya paket tryout.</p>
+            <Link href="/katalog" className="rounded-xl bg-cocoa px-5 py-3 font-bold text-cream">
+              Lihat katalog & tukar voucher
             </Link>
+          </div>
+        )}
+        <div className="grid gap-3 sm:grid-cols-2">
+          {milik.map(({ p, sampai, aktif }) => (
+            <div key={p.id} className="flex flex-col gap-2 rounded-2xl border border-beige bg-white p-5">
+              <span className="text-lg font-extrabold text-cocoa">{p.nama}</span>
+              {p.status === "draft" && <span className="text-xs font-bold text-muted">DRAFT · hanya terlihat admin</span>}
+              <span className={`text-sm font-semibold ${aktif ? "text-muted" : "text-danger"}`}>
+                {sampai ? (aktif ? `Akses sampai ${formatTanggal(sampai)}` : `✕ Akses berakhir ${formatTanggal(sampai)}`) : "Akses admin"}
+              </span>
+              <Link
+                href={aktif ? `/tryout/${p.kode}` : `/katalog?perlu=${p.kode}`}
+                className={`mt-1 rounded-xl px-4 py-3 text-center font-bold ${aktif ? "bg-cocoa text-cream" : "border-2 border-cocoa text-cocoa"}`}
+              >
+                {aktif ? "Mulai tryout" : "Perpanjang akses"}
+              </Link>
+            </div>
           ))}
         </div>
       </section>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { notFound, redirect } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
+import { formatTanggal, getAkses } from "@/lib/access";
 import { requireActiveUser } from "@/lib/auth";
 import { imageUrl } from "@/lib/exam/data";
 import type { Label, Subtes } from "@/lib/exam/types";
@@ -22,6 +23,21 @@ async function Isi({ params }: { params: PageProps<"/pembahasan/[attemptId]">["p
   if (!a || a.user_id !== user.id) notFound();
   // Pembahasan & kunci hanya boleh dibuka SETELAH TO dikumpulkan (SPEC 5.6).
   if (!a.selesai) redirect(`/ujian/${a.id}`);
+  const akses = await getAkses(user, a.part_id);
+  if (!akses.aktif) {
+    return (
+      <div className="flex flex-col items-start gap-4 rounded-2xl border border-beige bg-white p-6">
+        <h1 className="text-2xl font-extrabold text-cocoa">Akses Part ini sudah berakhir</h1>
+        <p className="text-muted">
+          {akses.berlakuSampai ? `Aksesmu berakhir ${formatTanggal(akses.berlakuSampai)}. ` : ""}
+          Perpanjang akses untuk membuka pembahasan lagi. Nilaimu tetap ada di Riwayat.
+        </p>
+        <Link href="/katalog" className="rounded-xl bg-cocoa px-5 py-3 font-bold text-cream">
+          Lihat katalog
+        </Link>
+      </div>
+    );
+  }
 
   const [{ data: qs }, { data: ans }] = await Promise.all([
     db

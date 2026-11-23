@@ -1,6 +1,7 @@
 "use server";
 
 import { notFound, redirect } from "next/navigation";
+import { getAkses } from "@/lib/access";
 import { getActiveUser, requireActiveUser } from "@/lib/auth";
 import { finalizeAttempt, getPartByKode } from "@/lib/exam/data";
 import { getSettings, TOLERANSI_DETIK } from "@/lib/exam/settings";
@@ -14,6 +15,8 @@ export async function startExam(kode: string) {
   const user = await requireActiveUser(`/tryout/${kode}`);
   const part = await getPartByKode(kode);
   if (!part || (part.status !== "terbit" && user.role !== "admin")) notFound();
+  // Paket hanya bisa dikerjakan dengan akses aktif (SPEC 3 & 10).
+  if (!(await getAkses(user, part.id)).aktif) redirect(`/katalog?perlu=${part.kode}`);
   const db = createAdminClient();
 
   const { data: berjalan } = await db

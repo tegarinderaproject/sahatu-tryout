@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
+import { formatTanggal, getAkses, type Akses } from "@/lib/access";
 import { getActiveUser } from "@/lib/auth";
 import { getPartByKode } from "@/lib/exam/data";
 import { getSettings, TOLERANSI_DETIK } from "@/lib/exam/settings";
@@ -19,7 +20,9 @@ async function Isi({ params }: { params: PageProps<"/tryout/[kode]">["params"] }
   if (!part || (part.status !== "terbit" && user?.role !== "admin")) notFound();
 
   let berjalan = false;
+  let akses: Akses = { aktif: false, berlakuSampai: null };
   if (user) {
+    akses = await getAkses(user, part.id);
     const { data } = await createAdminClient()
       .from("attempts")
       .select("batas")
@@ -76,7 +79,21 @@ async function Isi({ params }: { params: PageProps<"/tryout/[kode]">["params"] }
         <li>Jawaban tersimpan otomatis ke server setiap kali kamu memilih.</li>
       </ul>
 
-      {!user ? (
+      {user && akses.aktif && akses.berlakuSampai && (
+        <p className="text-sm font-semibold text-muted">Aksesmu aktif sampai {formatTanggal(akses.berlakuSampai)}.</p>
+      )}
+      {user && !akses.aktif ? (
+        <div className="flex flex-col gap-3 rounded-2xl border-2 border-caramel bg-white p-5">
+          <p className="font-semibold">
+            {akses.berlakuSampai
+              ? `Aksesmu ke ${part.nama} sudah berakhir pada ${formatTanggal(akses.berlakuSampai)}.`
+              : `Kamu belum punya akses ke ${part.nama}.`}
+          </p>
+          <Link href={`/katalog?perlu=${part.kode}`} className="rounded-xl bg-cocoa px-6 py-3.5 text-center font-bold text-cream sm:self-start">
+            Beli atau tukar voucher
+          </Link>
+        </div>
+      ) : !user ? (
         <Link
           href={`/masuk?lanjut=/tryout/${part.kode}`}
           className="w-full rounded-xl bg-cocoa px-6 py-4 text-center text-lg font-bold text-cream sm:w-auto"

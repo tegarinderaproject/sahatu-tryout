@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
 import { requireAdmin } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { deletePart, setPartStatus } from "../../actions";
+import { deletePart, setPartStatusForm } from "../../actions";
 import { UploadForm } from "./UploadForm";
 
 async function Isi({ params }: { params: PageProps<"/admin/part/[id]">["params"] }) {
@@ -20,7 +20,6 @@ async function Isi({ params }: { params: PageProps<"/admin/part/[id]">["params"]
   ]);
   if (!part) notFound();
   const hitung = (s: string) => (qs ?? []).filter((q) => q.subtes === s).length;
-  const terbit = part.status === "terbit";
 
   return (
     <>
@@ -30,16 +29,19 @@ async function Isi({ params }: { params: PageProps<"/admin/part/[id]">["params"]
       <div className="flex flex-col gap-1">
         <h1 className="text-3xl font-extrabold text-cocoa">{part.nama}</h1>
         <p className="text-muted">
-          Alamat: /tryout/{part.kode} · {terbit ? "Terbit" : "Draft"} · TWK {hitung("TWK")} · TIU {hitung("TIU")} · TKP{" "}
+          Alamat: /tryout/{part.kode} · {part.status} · TWK {hitung("TWK")} · TIU {hitung("TIU")} · TKP{" "}
           {hitung("TKP")} · {percobaan ?? 0} percobaan
         </p>
       </div>
 
       <div className="flex flex-wrap gap-2">
-        <form action={setPartStatus.bind(null, part.id, terbit ? "draft" : "terbit")}>
-          <button className="rounded-xl bg-cocoa px-4 py-2.5 font-bold text-cream">
-            {terbit ? "Jadikan draft" : "Terbitkan"}
-          </button>
+        <form action={setPartStatusForm.bind(null, part.id)} className="flex gap-2">
+          <select name="status" defaultValue={part.status} aria-label="Status Part" className="rounded-xl border-2 border-beige bg-white px-3 py-2">
+            <option value="draft">Draft (tersembunyi)</option>
+            <option value="segera">Segera hadir (tampil, belum bisa dibeli)</option>
+            <option value="terbit">Terbit</option>
+          </select>
+          <button className="rounded-xl bg-cocoa px-4 py-2.5 font-bold text-cream">Simpan status</button>
         </form>
         <Link href={`/tryout/${part.kode}`} className="rounded-xl border-2 border-cocoa px-4 py-2 font-bold text-cocoa">
           Coba kerjakan

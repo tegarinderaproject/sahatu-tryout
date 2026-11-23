@@ -192,3 +192,100 @@ export async function saveQuestion(questionId: string, _: ActionState, form: For
   revalidatePath(`/admin/soal/${questionId}`);
   return { ok: "Soal disimpan. Nilai percobaan yang sudah selesai tidak dihitung ulang." };
 }
+
+// ---------------- Tahap 5: voucher, bundling, akses manual ----------------
+
+export async function setPartStatusForm(partId: string, form: FormData) {
+  await requireAdmin();
+  const status = String(form.get("status") ?? "");
+  if (!["draft", "segera", "terbit"].includes(status)) return;
+  await createAdminClient().from("parts").update({ status }).eq("id", partId);
+  revalidatePath(`/admin/part/${partId}`);
+  revalidatePath("/admin");
+}
+
+export async function createVoucher(_: ActionState, form: FormData): Promise<ActionState> {
+  await requireAdmin();
+  const kode = String(form.get("kode") ?? "").trim().toUpperCase();
+  const partId = String(form.get("part_id") ?? "") || null;
+  const kuota = Number(form.get("kuota") ?? 1);
+  const hari = Number(form.get("masa_akses_hari") ?? 365);
+  const hingga = String(form.get("berlaku_hingga") ?? "");
+  const catatan = String(form.get("catatan") ?? "").trim() || null;
+  if (!/^[A-Z0-9-]{4,40}$/.test(kode)) return { error: "Kode 4–40 karakter: huruf, angka, atau strip." };
+  if (!Number.isInteger(kuota) || kuota < 1) return { error: "Kuota minimal 1." };
+  if (!Number.isInteger(hari) || hari < 1) return { error: "Masa akses minimal 1 hari." };
+  const { error } = await createAdminClient().from("vouchers").insert({
+    kode,
+    part_id: partId,
+    kuota,
+    masa_akses_hari: hari,
+    berlaku_hingga: hingga ? new Date(`${hingga}T23:59:59+07:00`).toISOString() : null,
+    catatan,
+  });
+  if (error) return { error: /duplicate/i.test(error.message) ? "Kode sudah dipakai." : error.message };
+  revalidatePath("/admin/voucher");
+  return { ok: `Voucher ${kode} dibuat.` };
+}
+
+export async function toggleVoucher(kode: string, aktif: boolean) {
+  await requireAdmin();
+  await createAdminClient().from("vouchers").update({ aktif }).eq("kode", kode);
+  revalidatePath("/admin/voucher");
+}
+
+export async function createBundle(_: ActionState, form: FormData): Promise<ActionState> {
+  await requireAdmin();
+  const nama = String(form.get("nama") ?? "").trim();
+  const deskripsi = String(form.get("deskripsi") ?? "").trim() || null;
+  const harga = Number(form.get("harga"));
+  const parts = form.getAll("part_id").map(String).filter(Boolean);
+  if (!nama) return { error: "Nama wajib diisi." };
+  if (!Number.isInteger(harga) || harga < 0) return { error: "Harga harus angka." };
+  if (parts.length < 2) return { error: "Pilih minimal 2 Part." };
+  const db = createAdminClient();
+  const { data, error } = await db.from("bundles").insert({ nama, deskripsi, harga }).select("id").single();
+  if (error || !data) return { error: error?.message ?? "Gagal membuat bundling." };
+  await db.from("bundle_parts").insert(parts.map((part_id) => ({ bundle_id: data.id, part_id })));
+  revalidatePath("/admin/bundling");
+  return { ok: "Bundling dibuat (status draft)." };
+}
+
+export async function setBundleStatus(bundleId: string, status: "draft" | "terbit") {
+  await requireAdmin();
+  await createAdminClient().from("bundles").update({ status }).eq("id", bundleId);
+  revalidatePath("/admin/bundling");
+}
+
+export async function deleteBundle(bundleId: string) {
+  await requireAdmin();
+  await createAdminClient().from("bundles").delete().eq("id", bundleId);
+  revalidatePath("/admin/bundling");
+}
+
+/** Cadangan kalau pembayaran/webhook gagal (SPEC 6.7). */
+export async function grantManual(_: ActionState, form: FormData): Promise<ActionState> {
+  await requireAdmin();
+  const email = String(form.get("email") ?? "").trim().toLowerCase();
+  const partIds = form.getAll("part_id").map(String).filter(Boolean);
+  const hari = Number(form.get("hari") ?? 365);
+  if (!email || partIds.length === 0) return { error: "Isi email dan pilih minimal 1 Part." };
+  if (!Number.isInteger(hari) || hari < 1) return { error: "Jumlah hari minimal 1." };
+  const db = createAdminClient();
+  // Cari akun berdasarkan email (lewat Auth admin API).
+  let userId: string | null = null;
+  for (let page = 1; page <= 20 && !userId; page++) {
+    const { data } = await db.auth.admin.listUsers({ page, perPage: 1000 });
+    userId = data.users.find((u) => u.email?.toLowerCase() === email)?.id ?? null;
+    if (data.users.length < 1000) break;
+  }
+  if (!userId) return { error: "Akun dengan email itu tidak ditemukan. Minta peserta daftar dulu." };
+  const hasil: string[] = [];
+  for (const partId of partIds) {
+    const { data, error } = await db.rpc("grant_access", { p_user: userId, p_part: partId, p_sumber: "manual", p_hari: hari });
+    if (error) return { error: error.message };
+    hasil.push(new Date(data as string).toLocaleDateString("id-ID", { dateStyle: "long", timeZone: "Asia/Jakarta" }));
+  }
+  revalidatePath("/admin/akses");
+  return { ok: `Akses diberikan ke ${email}, berlaku sampai ${hasil.join(", ")}.` };
+}

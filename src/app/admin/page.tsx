@@ -19,9 +19,14 @@ async function Isi() {
     <>
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-3xl font-extrabold text-cocoa">Admin</h1>
-        <Link href="/admin/laporan" className="rounded-xl border-2 border-cocoa px-4 py-2 font-bold text-cocoa">
-          Laporan soal{laporanBaru ? ` · ${laporanBaru} baru` : ""}
-        </Link>
+        <nav className="flex flex-wrap gap-2 text-sm">
+          <Link href="/admin/voucher" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">Voucher</Link>
+          <Link href="/admin/bundling" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">Bundling</Link>
+          <Link href="/admin/akses" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">Akses</Link>
+          <Link href="/admin/laporan" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">
+            Laporan soal{laporanBaru ? ` · ${laporanBaru} baru` : ""}
+          </Link>
+        </nav>
       </div>
 
       <section className="flex flex-col gap-3">
@@ -42,7 +47,7 @@ async function Isi() {
                   <span
                     className={`rounded-full px-3 py-1 text-xs font-bold ${p.status === "terbit" ? "bg-cocoa text-cream" : "bg-beige text-cocoa"}`}
                   >
-                    {p.status === "terbit" ? "Terbit" : "Draft"}
+                    {p.status === "terbit" ? "Terbit" : p.status === "segera" ? "Segera" : "Draft"}
                   </span>
                 </Link>
               </li>
