@@ -261,11 +261,31 @@ export function ExamClient({ partId, partNama, attemptId, questions, deadline, s
                     >
                       {o.label}
                     </span>
-                    {o.teks && <span className="flex-1 leading-snug">{o.teks}</span>}
-                    {!o.teks && o.gambar && <span className="sr-only">Pilih opsi {o.label} (gambar)</span>}
+                    <span className="flex flex-1 flex-col items-start gap-2">
+                      {o.teks && <span className="leading-snug">{o.teks}</span>}
+                      {o.gambar && (
+                        // Gambar opsi rata kiri, tepat di sebelah huruf. Ketuk gambar = pilih jawaban.
+                        // eslint-disable-next-line @next/next/no-img-element -- ukuran gambar soal bervariasi
+                        <img
+                          src={o.gambar}
+                          alt={`Gambar opsi ${o.label}`}
+                          className="h-24 w-auto max-w-full rounded-lg border border-beige bg-white sm:h-28"
+                        />
+                      )}
+                    </span>
                   </button>
                   {o.gambar && (
-                    <ZoomableImage src={o.gambar} alt={`Gambar opsi ${o.label}`} onZoom={setZoom} />
+                    <button
+                      type="button"
+                      onClick={() => setZoom({ src: o.gambar!, alt: `Gambar opsi ${o.label}` })}
+                      aria-label={`Perbesar gambar opsi ${o.label}`}
+                      className="flex h-11 w-11 flex-none items-center justify-center rounded-xl border border-beige bg-cream text-cocoa"
+                    >
+                      <svg aria-hidden width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+                        <circle cx="11" cy="11" r="7" />
+                        <path d="m20 20-3.5-3.5M11 8v6M8 11h6" />
+                      </svg>
+                    </button>
                   )}
                 </div>
               );
