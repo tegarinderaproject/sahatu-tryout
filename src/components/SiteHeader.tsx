@@ -19,6 +19,7 @@ async function UserMenu() {
     <nav className="flex items-center gap-3 text-sm font-semibold text-cocoa">
       {user.role === "admin" && <Link href="/admin">Admin</Link>}
       <Link href="/dashboard">Dashboard</Link>
+      <Link href="/riwayat" className="hidden sm:inline">Riwayat</Link>
       <form action={keluar}>
         <button type="submit" className="rounded-xl border-2 border-beige px-3 py-1.5">
           Keluar

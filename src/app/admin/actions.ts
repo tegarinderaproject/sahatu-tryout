@@ -145,3 +145,50 @@ export async function commitSoalFile(partId: string, form: FormData): Promise<{ 
   revalidatePath(`/admin/part/${partId}`);
   return { errors: [], ok: `${r.questions.length} soal tersimpan.` };
 }
+
+export async function setReportStatus(reportId: string, form: FormData) {
+  await requireAdmin();
+  const status = String(form.get("status") ?? "");
+  if (!["baru", "diproses", "selesai"].includes(status)) return;
+  await createAdminClient()
+    .from("question_reports")
+    .update({ status, catatan_admin: String(form.get("catatan") ?? "").trim() || null })
+    .eq("id", reportId);
+  revalidatePath("/admin/laporan");
+}
+
+/** Edit satu soal (teks, gambar tidak diubah di sini). Nilai percobaan lama TIDAK dihitung ulang. */
+export async function saveQuestion(questionId: string, _: ActionState, form: FormData): Promise<ActionState> {
+  await requireAdmin();
+  const db = createAdminClient();
+  const { data: q } = await db.from("questions").select("id, subtes").eq("id", questionId).maybeSingle();
+  if (!q) return { error: "Soal tidak ditemukan." };
+  const soal = String(form.get("soal") ?? "").trim();
+  const pembahasan = String(form.get("pembahasan") ?? "").trim();
+  const kategori = String(form.get("kategori") ?? "").trim() || null;
+  if (!soal || !pembahasan) return { error: "Soal dan pembahasan wajib diisi." };
+  const labels = ["A", "B", "C", "D", "E"] as const;
+  const kunci = String(form.get("kunci") ?? "").toUpperCase();
+  const bobot = labels.map((l) => Number(form.get(`bobot_${l}`)));
+  if (q.subtes === "TKP") {
+    if ([...bobot].sort().join("") !== "12345") return { error: "Bobot TKP harus 1–5, masing-masing sekali." };
+  } else if (!labels.includes(kunci as (typeof labels)[number])) return { error: "Pilih kunci A–E." };
+
+  const { error } = await db.from("questions").update({ soal, pembahasan, kategori }).eq("id", questionId);
+  if (error) return { error: error.message };
+  for (const [i, l] of labels.entries()) {
+    const teks = String(form.get(`opsi_${l}`) ?? "").trim() || null;
+    const { error: e } = await db
+      .from("options")
+      .update({
+        teks,
+        benar: q.subtes !== "TKP" && kunci === l,
+        bobot: q.subtes === "TKP" ? bobot[i] : null,
+      })
+      .eq("question_id", questionId)
+      .eq("label", l);
+    if (e) return { error: e.message };
+  }
+  revalidatePath(`/admin/soal/${questionId}`);
+  return { ok: "Soal disimpan. Nilai percobaan yang sudah selesai tidak dihitung ulang." };
+}

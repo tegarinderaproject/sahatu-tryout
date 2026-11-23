@@ -10,13 +10,19 @@ async function Isi() {
   await connection(); // data login selalu dibaca saat diminta
   await requireAdmin();
   const db = createAdminClient();
-  const [{ data: parts }, { data: settings }] = await Promise.all([
+  const [{ data: parts }, { data: settings }, { count: laporanBaru }] = await Promise.all([
     db.from("parts").select("id, kode, nama, status, harga, questions(count)").order("dibuat"),
     db.from("settings").select("*").eq("id", 1).single(),
+    db.from("question_reports").select("id", { count: "exact", head: true }).eq("status", "baru"),
   ]);
   return (
     <>
-      <h1 className="text-3xl font-extrabold text-cocoa">Admin</h1>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h1 className="text-3xl font-extrabold text-cocoa">Admin</h1>
+        <Link href="/admin/laporan" className="rounded-xl border-2 border-cocoa px-4 py-2 font-bold text-cocoa">
+          Laporan soal{laporanBaru ? ` · ${laporanBaru} baru` : ""}
+        </Link>
+      </div>
 
       <section className="flex flex-col gap-3">
         <h2 className="text-xl font-extrabold text-cocoa">Part tryout</h2>

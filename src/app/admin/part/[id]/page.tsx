@@ -15,7 +15,7 @@ async function Isi({ params }: { params: PageProps<"/admin/part/[id]">["params"]
   const db = createAdminClient();
   const [{ data: part }, { data: qs }, { count: percobaan }] = await Promise.all([
     db.from("parts").select("*").eq("id", id).maybeSingle(),
-    db.from("questions").select("subtes").eq("part_id", id),
+    db.from("questions").select("id, nomor, subtes").eq("part_id", id).order("nomor"),
     db.from("attempts").select("id", { count: "exact", head: true }).eq("part_id", id),
   ]);
   if (!part) notFound();
@@ -54,6 +54,23 @@ async function Isi({ params }: { params: PageProps<"/admin/part/[id]">["params"]
         </p>
         <UploadForm partId={part.id} />
       </section>
+
+      {(qs ?? []).length > 0 && (
+        <details className="rounded-2xl border border-beige bg-white p-5">
+          <summary className="cursor-pointer text-lg font-extrabold text-cocoa">Edit soal satu per satu</summary>
+          <div className="mt-3 grid grid-cols-8 gap-1.5 sm:grid-cols-10">
+            {(qs ?? []).map((q) => (
+              <Link
+                key={q.id}
+                href={`/admin/soal/${q.id}`}
+                className="rounded-lg border border-beige py-2 text-center text-sm font-bold text-cocoa hover:border-cocoa"
+              >
+                {q.nomor}
+              </Link>
+            ))}
+          </div>
+        </details>
+      )}
 
       <section className="flex flex-col gap-3 rounded-2xl border-2 border-danger/40 bg-white p-5">
         <h2 className="text-lg font-extrabold text-danger">Hapus Part</h2>

@@ -160,13 +160,19 @@ async function ResultView({ params }: { params: PageProps<"/hasil/[attemptId]">[
       <p className="-mt-3 text-xs text-muted">Garis tegak di setiap bar = batas passing grade.</p>
       <div className="flex flex-col gap-3 sm:flex-row">
         <Link
-          href={`/tryout/${part.kode}`}
+          href={`/pembahasan/${a.id}`}
           className="rounded-xl bg-cocoa px-6 py-4 text-center font-bold text-cream hover:bg-charcoal"
+        >
+          Lihat pembahasan
+        </Link>
+        <Link
+          href={`/tryout/${part.kode}`}
+          className="rounded-xl border-2 border-cocoa px-6 py-4 text-center font-bold text-cocoa"
         >
           Ulangi tryout
         </Link>
-        <Link href="/dashboard" className="rounded-xl border-2 border-cocoa px-6 py-4 text-center font-bold text-cocoa">
-          Ke dashboard
+        <Link href="/riwayat" className="rounded-xl bg-beige px-6 py-4 text-center font-bold text-charcoal">
+          Riwayat
         </Link>
       </div>
     </>

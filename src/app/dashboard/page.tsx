@@ -18,7 +18,7 @@ async function Isi() {
       .select("id, mulai, selesai, total, lulus, percobaan_ke, parts(nama)")
       .eq("user_id", user.id)
       .order("mulai", { ascending: false })
-      .limit(20),
+      .limit(5),
   ]);
   const tgl = (s: string) =>
     new Date(s).toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Jakarta" });
@@ -46,7 +46,12 @@ async function Isi() {
       </section>
 
       <section className="flex flex-col gap-3">
-        <h2 className="text-xl font-extrabold text-cocoa">Riwayat</h2>
+        <div className="flex items-baseline justify-between">
+          <h2 className="text-xl font-extrabold text-cocoa">Riwayat terbaru</h2>
+          <Link href="/riwayat" className="text-sm font-bold text-cocoa underline">
+            Lihat semua
+          </Link>
+        </div>
         {(attempts ?? []).length === 0 && <p className="text-muted">Belum ada percobaan.</p>}
         <ul className="flex flex-col divide-y divide-beige rounded-2xl border border-beige bg-white">
           {(attempts ?? []).map((a) => {
