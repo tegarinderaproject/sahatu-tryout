@@ -12,7 +12,7 @@
   --color-muted: #5e5148; /* teks sekunder */
   --color-danger: #9a3b2e; /* belum lulus / salah, selalu dengan ikon + label */
 
-  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
