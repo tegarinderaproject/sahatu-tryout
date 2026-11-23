@@ -1,10 +1,13 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import { tukarVoucher, type VoucherState } from "./actions";
 
 export function VoucherForm({ parts, login }: { parts: { id: string; nama: string }[]; login: boolean }) {
   const [s, action, pending] = useActionState<VoucherState, FormData>(tukarVoucher, {});
+  // Dikontrol sendiri supaya isian tidak hilang setelah tombol Tukar ditekan.
+  const [kode, setKode] = useState("");
+  const [partId, setPartId] = useState("");
   return (
     <form action={action} className="flex flex-col gap-3 rounded-2xl bg-beige p-5 sm:p-6">
       <label htmlFor="kode" className="text-lg font-extrabold text-cocoa">
@@ -15,12 +18,14 @@ export function VoucherForm({ parts, login }: { parts: { id: string; nama: strin
         <input
           id="kode"
           name="kode"
+          value={kode}
+          onChange={(e) => setKode(e.target.value)}
           placeholder="Contoh: SAHATU-XXXX"
           autoCapitalize="characters"
           className="min-w-0 flex-[1_1_200px] rounded-xl border-2 border-mocha bg-white px-4 py-3 uppercase"
         />
         {s.pilihPart && (
-          <select name="part_id" required className="rounded-xl border-2 border-mocha bg-white px-3 py-3" aria-label="Pilih Part">
+          <select name="part_id" required value={partId} onChange={(e) => setPartId(e.target.value)} className="rounded-xl border-2 border-mocha bg-white px-3 py-3" aria-label="Pilih Part">
             <option value="">Pilih Part…</option>
             {parts.map((p) => (
               <option key={p.id} value={p.id}>
