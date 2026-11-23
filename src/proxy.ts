@@ -4,7 +4,7 @@ import { NextResponse, type NextRequest } from "next/server";
 // Proxy (dulu "middleware"): menyegarkan sesi login Supabase di setiap permintaan halaman,
 // dan mengarahkan ke /masuk kalau halaman butuh login. Pengecekan "satu perangkat aktif"
 // dilakukan di server (lib/auth.ts) pada setiap halaman & aksi yang butuh login.
-const PERLU_LOGIN = ["/dashboard", "/admin", "/hasil", "/ujian"];
+const PERLU_LOGIN = ["/dashboard", "/admin", "/hasil", "/ujian", "/pembahasan", "/riwayat"];
 
 export async function proxy(request: NextRequest) {
   let response = NextResponse.next({ request });
