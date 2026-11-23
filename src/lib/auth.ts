@@ -37,6 +37,8 @@ export async function getActiveUser({ keluarkan = true }: { keluarkan?: boolean 
     .eq("id", claims.sub)
     .maybeSingle();
 
+  // Akun sudah dihapus tapi token lama masih berlaku: anggap belum login.
+  if (!profile) return { user: null, alasan: "belum-login" };
   const sessionId = String(claims.session_id ?? "");
   if (profile?.active_session_id && profile.active_session_id !== sessionId) {
     if (!keluarkan) return { user: null, alasan: "perangkat-lain" };
