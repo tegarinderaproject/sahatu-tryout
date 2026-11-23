@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { Suspense } from "react";
 import { connection } from "next/server";
 import { checkSupabaseConnection } from "@/lib/supabase/server";
 
-// Halaman sementara Tahap 1. Akan diganti landing page di Tahap 7.
+// Halaman sementara. Akan diganti landing page di Tahap 7.
 
 const statusText = {
   terhubung: { label: "Supabase terhubung", tone: "bg-beige text-cocoa", icon: "✓" },
@@ -49,6 +50,12 @@ export default function Home() {
         >
           <SupabaseStatus />
         </Suspense>
+        <Link
+          href="/tryout/p0"
+          className="mt-6 block rounded-xl bg-cocoa px-5 py-3.5 font-bold text-cream hover:bg-charcoal"
+        >
+          Coba tryout contoh (110 soal)
+        </Link>
       </div>
     </main>
   );

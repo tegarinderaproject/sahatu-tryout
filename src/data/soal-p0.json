@@ -1,0 +1,4952 @@
+[
+ {
+  "nomor": 1,
+  "subtes": "TWK",
+  "kategori": "Nasionalisme",
+  "soal": "[DUMMY – kunci A] Dasar negara Republik Indonesia adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Pancasila",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Tap MPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "UUD 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Sumpah Pemuda",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: Pancasila."
+ },
+ {
+  "nomor": 2,
+  "subtes": "TWK",
+  "kategori": "Nasionalisme",
+  "soal": "[DUMMY – kunci B] Semboyan negara Indonesia tertulis pada pita yang dicengkeram Garuda, yaitu ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Jalesveva Jayamahe",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Rawe-rawe rantas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Kartika Eka Paksi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Tut Wuri Handayani",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: Bhinneka Tunggal Ika."
+ },
+ {
+  "nomor": 3,
+  "subtes": "TWK",
+  "kategori": "Nasionalisme",
+  "soal": "[DUMMY – kunci C] Sumpah Pemuda diikrarkan pada tahun ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "1928",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "1930",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "1926",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: 1928."
+ },
+ {
+  "nomor": 4,
+  "subtes": "TWK",
+  "kategori": "Nasionalisme",
+  "soal": "[DUMMY – kunci D] Lambang sila ketiga Pancasila adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Padi dan kapas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Kepala banteng",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Bintang",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Pohon beringin",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Rantai",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: Pohon beringin."
+ },
+ {
+  "nomor": 5,
+  "subtes": "TWK",
+  "kategori": "Nasionalisme",
+  "soal": "[DUMMY – kunci E] Proklamasi kemerdekaan Indonesia dibacakan pada tanggal ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "28 Oktober 1928",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "18 Agustus 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "1 Juni 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "20 Mei 1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "17 Agustus 1945",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: 17 Agustus 1945."
+ },
+ {
+  "nomor": 6,
+  "subtes": "TWK",
+  "kategori": "Nasionalisme",
+  "soal": "[DUMMY – kunci A] Lembaga yang berwenang mengubah dan menetapkan UUD adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "MPR",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Mahkamah Konstitusi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "DPD",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "DPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Presiden",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: MPR."
+ },
+ {
+  "nomor": 7,
+  "subtes": "TWK",
+  "kategori": "Integritas",
+  "soal": "[DUMMY – kunci B] Dasar negara Republik Indonesia adalah ... Soal ini sengaja dibuat lebih panjang untuk menguji tampilan teks yang membungkus beberapa baris di layar HP, termasuk tanda baca, angka 2026, dan kata yang cukup panjang seperti 'pertanggungjawaban'.",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Pancasila",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Tap MPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Sumpah Pemuda",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "UUD 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: Pancasila."
+ },
+ {
+  "nomor": 8,
+  "subtes": "TWK",
+  "kategori": "Integritas",
+  "soal": "[DUMMY – kunci C] Semboyan negara Indonesia tertulis pada pita yang dicengkeram Garuda, yaitu ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Kartika Eka Paksi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Tut Wuri Handayani",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Rawe-rawe rantas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Jalesveva Jayamahe",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: Bhinneka Tunggal Ika."
+ },
+ {
+  "nomor": 9,
+  "subtes": "TWK",
+  "kategori": "Integritas",
+  "soal": "[DUMMY – kunci D] Sumpah Pemuda diikrarkan pada tahun ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "1926",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "1928",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "1930",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: 1928."
+ },
+ {
+  "nomor": 10,
+  "subtes": "TWK",
+  "kategori": "Integritas",
+  "soal": "[DUMMY – kunci E] Lambang sila ketiga Pancasila adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Rantai",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Padi dan kapas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Kepala banteng",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Bintang",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Pohon beringin",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: Pohon beringin."
+ },
+ {
+  "nomor": 11,
+  "subtes": "TWK",
+  "kategori": "Integritas",
+  "soal": "[DUMMY – kunci A] Proklamasi kemerdekaan Indonesia dibacakan pada tanggal ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "17 Agustus 1945",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "20 Mei 1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "18 Agustus 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "1 Juni 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "28 Oktober 1928",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: 17 Agustus 1945."
+ },
+ {
+  "nomor": 12,
+  "subtes": "TWK",
+  "kategori": "Integritas",
+  "soal": "[DUMMY – kunci B] Lembaga yang berwenang mengubah dan menetapkan UUD adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "DPD",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "MPR",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Presiden",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Mahkamah Konstitusi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "DPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: MPR."
+ },
+ {
+  "nomor": 13,
+  "subtes": "TWK",
+  "kategori": "Bela Negara",
+  "soal": "[DUMMY – kunci C] Dasar negara Republik Indonesia adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Tap MPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Sumpah Pemuda",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Pancasila",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "UUD 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: Pancasila."
+ },
+ {
+  "nomor": 14,
+  "subtes": "TWK",
+  "kategori": "Bela Negara",
+  "soal": "[DUMMY – kunci D] Semboyan negara Indonesia tertulis pada pita yang dicengkeram Garuda, yaitu ... Soal ini sengaja dibuat lebih panjang untuk menguji tampilan teks yang membungkus beberapa baris di layar HP, termasuk tanda baca, angka 2026, dan kata yang cukup panjang seperti 'pertanggungjawaban'.",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Jalesveva Jayamahe",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Kartika Eka Paksi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Tut Wuri Handayani",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Rawe-rawe rantas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: Bhinneka Tunggal Ika."
+ },
+ {
+  "nomor": 15,
+  "subtes": "TWK",
+  "kategori": "Bela Negara",
+  "soal": "[DUMMY – kunci E] Sumpah Pemuda diikrarkan pada tahun ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "1930",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "1926",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "1928",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: 1928."
+ },
+ {
+  "nomor": 16,
+  "subtes": "TWK",
+  "kategori": "Bela Negara",
+  "soal": "[DUMMY – kunci A] Lambang sila ketiga Pancasila adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Pohon beringin",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Bintang",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Rantai",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Kepala banteng",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Padi dan kapas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: Pohon beringin."
+ },
+ {
+  "nomor": 17,
+  "subtes": "TWK",
+  "kategori": "Bela Negara",
+  "soal": "[DUMMY – kunci B] Proklamasi kemerdekaan Indonesia dibacakan pada tanggal ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "18 Agustus 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "17 Agustus 1945",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "20 Mei 1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "1 Juni 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "28 Oktober 1928",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: 17 Agustus 1945."
+ },
+ {
+  "nomor": 18,
+  "subtes": "TWK",
+  "kategori": "Bela Negara",
+  "soal": "[DUMMY – kunci C] Lembaga yang berwenang mengubah dan menetapkan UUD adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "DPD",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "DPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "MPR",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Presiden",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Mahkamah Konstitusi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: MPR."
+ },
+ {
+  "nomor": 19,
+  "subtes": "TWK",
+  "kategori": "Pilar Negara",
+  "soal": "[DUMMY – kunci D] Dasar negara Republik Indonesia adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Tap MPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "UUD 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Sumpah Pemuda",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Pancasila",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: Pancasila."
+ },
+ {
+  "nomor": 20,
+  "subtes": "TWK",
+  "kategori": "Pilar Negara",
+  "soal": "[DUMMY – kunci E] Semboyan negara Indonesia tertulis pada pita yang dicengkeram Garuda, yaitu ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Kartika Eka Paksi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Jalesveva Jayamahe",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Rawe-rawe rantas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Tut Wuri Handayani",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: Bhinneka Tunggal Ika."
+ },
+ {
+  "nomor": 21,
+  "subtes": "TWK",
+  "kategori": "Pilar Negara",
+  "soal": "[DUMMY – kunci A] Sumpah Pemuda diikrarkan pada tahun ... Soal ini sengaja dibuat lebih panjang untuk menguji tampilan teks yang membungkus beberapa baris di layar HP, termasuk tanda baca, angka 2026, dan kata yang cukup panjang seperti 'pertanggungjawaban'.",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "1928",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "1926",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "1930",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: 1928."
+ },
+ {
+  "nomor": 22,
+  "subtes": "TWK",
+  "kategori": "Pilar Negara",
+  "soal": "[DUMMY – kunci B] Lambang sila ketiga Pancasila adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Rantai",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Pohon beringin",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Bintang",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Padi dan kapas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Kepala banteng",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: Pohon beringin."
+ },
+ {
+  "nomor": 23,
+  "subtes": "TWK",
+  "kategori": "Pilar Negara",
+  "soal": "[DUMMY – kunci C] Proklamasi kemerdekaan Indonesia dibacakan pada tanggal ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "20 Mei 1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "1 Juni 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "17 Agustus 1945",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "28 Oktober 1928",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "18 Agustus 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: 17 Agustus 1945."
+ },
+ {
+  "nomor": 24,
+  "subtes": "TWK",
+  "kategori": "Pilar Negara",
+  "soal": "[DUMMY – kunci D] Lembaga yang berwenang mengubah dan menetapkan UUD adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Mahkamah Konstitusi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "DPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "DPD",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "MPR",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Presiden",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: MPR."
+ },
+ {
+  "nomor": 25,
+  "subtes": "TWK",
+  "kategori": "Bahasa Indonesia",
+  "soal": "[DUMMY – kunci E] Dasar negara Republik Indonesia adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Sumpah Pemuda",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "UUD 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Tap MPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Pancasila",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: Pancasila."
+ },
+ {
+  "nomor": 26,
+  "subtes": "TWK",
+  "kategori": "Bahasa Indonesia",
+  "soal": "[DUMMY – kunci A] Semboyan negara Indonesia tertulis pada pita yang dicengkeram Garuda, yaitu ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Bhinneka Tunggal Ika",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Kartika Eka Paksi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Jalesveva Jayamahe",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Rawe-rawe rantas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Tut Wuri Handayani",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: Bhinneka Tunggal Ika."
+ },
+ {
+  "nomor": 27,
+  "subtes": "TWK",
+  "kategori": "Bahasa Indonesia",
+  "soal": "[DUMMY – kunci B] Sumpah Pemuda diikrarkan pada tahun ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "1928",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "1930",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "1926",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: 1928."
+ },
+ {
+  "nomor": 28,
+  "subtes": "TWK",
+  "kategori": "Bahasa Indonesia",
+  "soal": "[DUMMY – kunci C] Lambang sila ketiga Pancasila adalah ... Soal ini sengaja dibuat lebih panjang untuk menguji tampilan teks yang membungkus beberapa baris di layar HP, termasuk tanda baca, angka 2026, dan kata yang cukup panjang seperti 'pertanggungjawaban'.",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Bintang",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Rantai",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Pohon beringin",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Kepala banteng",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Padi dan kapas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: Pohon beringin."
+ },
+ {
+  "nomor": 29,
+  "subtes": "TWK",
+  "kategori": "Bahasa Indonesia",
+  "soal": "[DUMMY – kunci D] Proklamasi kemerdekaan Indonesia dibacakan pada tanggal ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "28 Oktober 1928",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "1 Juni 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "20 Mei 1908",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "17 Agustus 1945",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "18 Agustus 1945",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: 17 Agustus 1945."
+ },
+ {
+  "nomor": 30,
+  "subtes": "TWK",
+  "kategori": "Bahasa Indonesia",
+  "soal": "[DUMMY – kunci E] Lembaga yang berwenang mengubah dan menetapkan UUD adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Presiden",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "DPR",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Mahkamah Konstitusi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "DPD",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "MPR",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: MPR."
+ },
+ {
+  "nomor": 31,
+  "subtes": "TIU",
+  "kategori": "Analogi",
+  "soal": "[DUMMY – kunci A] PANAS : DINGIN = TINGGI : ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Rendah",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Panjang",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Besar",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Jauh",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Atas",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: Rendah."
+ },
+ {
+  "nomor": 32,
+  "subtes": "TIU",
+  "kategori": "Analogi",
+  "soal": "[DUMMY – kunci B] PENA : MENULIS = GUNTING : ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjahit",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Memotong",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Menggambar",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Melipat",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Mengukur",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: Memotong."
+ },
+ {
+  "nomor": 33,
+  "subtes": "TIU",
+  "kategori": "Analogi",
+  "soal": "[DUMMY – kunci C] DOKTER : RUMAH SAKIT = GURU : ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Perpustakaan",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Pasar",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Sekolah",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Kantor",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Bengkel",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: Sekolah."
+ },
+ {
+  "nomor": 34,
+  "subtes": "TIU",
+  "kategori": "Silogisme",
+  "soal": "[DUMMY – kunci D] Semua A adalah B.\nSemua B adalah C.\n\nKesimpulan yang tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Sebagian C bukan A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Semua B adalah A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Semua C adalah A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Semua A adalah C",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Tidak ada A yang C",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: Semua A adalah C."
+ },
+ {
+  "nomor": 35,
+  "subtes": "TIU",
+  "kategori": "Silogisme",
+  "soal": "[DUMMY – kunci E] Semua pegawai hadir rapat.\nBudi adalah pegawai.\n\nKesimpulan yang tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Semua yang hadir adalah Budi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Budi bukan pegawai",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Budi tidak hadir rapat",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Tidak dapat disimpulkan",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Budi hadir rapat",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: Budi hadir rapat."
+ },
+ {
+  "nomor": 36,
+  "subtes": "TIU",
+  "kategori": "Silogisme",
+  "soal": "[DUMMY – kunci A] Jika hujan, jalan basah.\nJalan tidak basah.\n\nKesimpulan yang tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Tidak hujan",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Jalan basah",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Tidak dapat disimpulkan",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Hujan",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Hujan deras",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: Tidak hujan."
+ },
+ {
+  "nomor": 37,
+  "subtes": "TIU",
+  "kategori": "Penalaran argumen",
+  "soal": "[DUMMY – kunci B] Pernyataan yang PALING MEMPERKUAT bahwa olahraga pagi meningkatkan konsentrasi adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Banyak orang suka olahraga pagi",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Penelitian menunjukkan skor fokus naik setelah olahraga pagi",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Olahraga butuh sepatu",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Udara pagi terasa segar",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Sore hari lebih ramai",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar B: Penelitian menunjukkan skor fokus naik setelah olahraga pagi."
+ },
+ {
+  "nomor": 38,
+  "subtes": "TIU",
+  "kategori": "Penalaran argumen",
+  "soal": "[DUMMY – kunci C] Pernyataan yang PALING MELEMAHKAN bahwa aplikasi X mempercepat layanan adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Petugas suka aplikasi X",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Aplikasi X berwarna biru",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Waktu tunggu tidak berubah setelah aplikasi dipakai",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Aplikasi X bisa di HP",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Aplikasi X gratis",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar C: Waktu tunggu tidak berubah setelah aplikasi dipakai."
+ },
+ {
+  "nomor": 39,
+  "subtes": "TIU",
+  "kategori": "Penalaran analitis",
+  "soal": "[DUMMY – kunci D] A lebih tinggi dari B. C lebih tinggi dari A. Siapa yang paling tinggi?",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "B",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "A dan C sama",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "C",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Tidak dapat ditentukan",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar D: C."
+ },
+ {
+  "nomor": 40,
+  "subtes": "TIU",
+  "kategori": "Penalaran analitis",
+  "soal": "[DUMMY – kunci E] Lima orang antre: P di depan Q, R di belakang Q, S paling belakang, T paling depan. Urutan dari depan adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "P – T – Q – R – S",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "T – P – R – Q – S",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "P – Q – T – R – S",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "T – Q – P – R – S",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "T – P – Q – R – S",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar E: T – P – Q – R – S."
+ },
+ {
+  "nomor": 41,
+  "subtes": "TIU",
+  "kategori": "Penalaran analitis",
+  "soal": "[DUMMY – kunci A] Empat orang duduk melingkar. A berhadapan dengan C. B di kanan A. Siapa yang berhadapan dengan B?",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "D",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "B sendiri",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "C",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Tidak dapat ditentukan",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Jawaban benar A: D."
+ },
+ {
+  "nomor": 42,
+  "subtes": "TIU",
+  "kategori": "Hitung cepat",
+  "soal": "[DUMMY – kunci B] 12 × 15 = ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "190",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "180",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "185",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "178",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "177",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 12 × 15 = 180.\nJawaban benar B: 180."
+ },
+ {
+  "nomor": 43,
+  "subtes": "TIU",
+  "kategori": "Hitung cepat",
+  "soal": "[DUMMY – kunci C] 25 × 24 = ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "597",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "602",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "600",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "610",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "603",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 25 × 24 = 600.\nJawaban benar C: 600."
+ },
+ {
+  "nomor": 44,
+  "subtes": "TIU",
+  "kategori": "Hitung cepat",
+  "soal": "[DUMMY – kunci D] 48 × 5 = ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "235",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "238",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "230",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "240",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "242",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 48 × 5 = 240.\nJawaban benar D: 240."
+ },
+ {
+  "nomor": 45,
+  "subtes": "TIU",
+  "kategori": "Hitung cepat",
+  "soal": "[DUMMY – kunci E] 144 ÷ 12 = ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "14",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "22",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "17",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "10",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "12",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 144 ÷ 12 = 12.\nJawaban benar E: 12."
+ },
+ {
+  "nomor": 46,
+  "subtes": "TIU",
+  "kategori": "Hitung cepat",
+  "soal": "[DUMMY – kunci A] 375 ÷ 15 = ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "25",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "35",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "27",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "28",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "23",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 375 ÷ 15 = 25.\nJawaban benar A: 25."
+ },
+ {
+  "nomor": 47,
+  "subtes": "TIU",
+  "kategori": "Deret angka",
+  "soal": "[DUMMY – kunci B] 3, 7, 11, 15, 19, ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "28",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "23",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "18",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "13",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "25",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Selisih tetap 4. Suku berikutnya 19 + (4) = 23.\nJawaban benar B: 23."
+ },
+ {
+  "nomor": 48,
+  "subtes": "TIU",
+  "kategori": "Deret angka",
+  "soal": "[DUMMY – kunci C] 5, 12, 19, 26, 33, ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "35",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "50",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "40",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "43",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "45",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Selisih tetap 7. Suku berikutnya 33 + (7) = 40.\nJawaban benar C: 40."
+ },
+ {
+  "nomor": 49,
+  "subtes": "TIU",
+  "kategori": "Deret angka",
+  "soal": "[DUMMY – kunci D] 100, 94, 88, 82, 76, ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "67",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "72",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "73",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "70",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "80",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Selisih tetap -6. Suku berikutnya 76 + (-6) = 70.\nJawaban benar D: 70."
+ },
+ {
+  "nomor": 50,
+  "subtes": "TIU",
+  "kategori": "Deret angka",
+  "soal": "[DUMMY – kunci E] 2, 6, 18, 54, 162, ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "496",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "488",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "476",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "489",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "486",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Dikali 3 setiap suku. 162 × 3 = 486.\nJawaban benar E: 486."
+ },
+ {
+  "nomor": 51,
+  "subtes": "TIU",
+  "kategori": "Deret angka",
+  "soal": "[DUMMY – kunci A] 1, 2, 4, 8, 16, ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "32",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "42",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "22",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "37",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "30",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Dikali 2 setiap suku. 16 × 2 = 32.\nJawaban benar A: 32."
+ },
+ {
+  "nomor": 52,
+  "subtes": "TIU",
+  "kategori": "Soal cerita",
+  "soal": "[DUMMY – kunci B] Harga 3 buku Rp24.000. Berapa ribu rupiah harga 5 buku?",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "45",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "40",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "35",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "37",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "50",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 1 buku = 24.000 ÷ 3 = 8.000. 5 buku = 40.000, jadi 40 ribu.\nJawaban benar B: 40."
+ },
+ {
+  "nomor": 53,
+  "subtes": "TIU",
+  "kategori": "Soal cerita",
+  "soal": "[DUMMY – kunci C] Sebuah mobil menempuh 180 km dalam 3 jam. Berapa km/jam kecepatannya?",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "57",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "65",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "60",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "58",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "62",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 180 ÷ 3 = 60 km/jam.\nJawaban benar C: 60."
+ },
+ {
+  "nomor": 54,
+  "subtes": "TIU",
+  "kategori": "Soal cerita",
+  "soal": "[DUMMY – kunci D] Diskon 20% dari harga Rp150.000. Berapa ribu rupiah harga setelah diskon?",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "123",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "115",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "125",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "120",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "117",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] 150.000 × 80% = 120.000, jadi 120 ribu.\nJawaban benar D: 120."
+ },
+ {
+  "nomor": 55,
+  "subtes": "TIU",
+  "kategori": "Kecukupan data",
+  "soal": "[DUMMY – kunci A] Berapakah nilai x?\n(1) x + 3 = 10\n(2) x adalah bilangan positif",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Pernyataan (1) SAJA cukup, tetapi (2) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Pernyataan (2) SAJA cukup, tetapi (1) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "KEDUA pernyataan BERSAMA-SAMA cukup, tetapi masing-masing SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "MASING-MASING pernyataan SAJA sudah cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Kedua pernyataan, sendiri-sendiri maupun bersama-sama, TIDAK cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] (1) memberi x = 7. (2) tidak memberi nilai pasti.\nJawaban benar A."
+ },
+ {
+  "nomor": 56,
+  "subtes": "TIU",
+  "kategori": "Kecukupan data",
+  "soal": "[DUMMY – kunci C] Berapa luas persegi panjang?\n(1) Panjangnya 8 cm\n(2) Lebarnya 5 cm",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Pernyataan (1) SAJA cukup, tetapi (2) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Pernyataan (2) SAJA cukup, tetapi (1) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "KEDUA pernyataan BERSAMA-SAMA cukup, tetapi masing-masing SAJA tidak cukup.",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "MASING-MASING pernyataan SAJA sudah cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Kedua pernyataan, sendiri-sendiri maupun bersama-sama, TIDAK cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Butuh panjang dan lebar sekaligus: 8 × 5 = 40 cm².\nJawaban benar C."
+ },
+ {
+  "nomor": 57,
+  "subtes": "TIU",
+  "kategori": "Kecukupan data",
+  "soal": "[DUMMY – kunci D] Berapa nilai y?\n(1) 2y = 18\n(2) y - 4 = 5",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Pernyataan (1) SAJA cukup, tetapi (2) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Pernyataan (2) SAJA cukup, tetapi (1) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "KEDUA pernyataan BERSAMA-SAMA cukup, tetapi masing-masing SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "MASING-MASING pernyataan SAJA sudah cukup.",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Kedua pernyataan, sendiri-sendiri maupun bersama-sama, TIDAK cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] (1) memberi y = 9. (2) juga memberi y = 9. Masing-masing cukup.\nJawaban benar D."
+ },
+ {
+  "nomor": 58,
+  "subtes": "TIU",
+  "kategori": "Kecukupan data",
+  "soal": "[DUMMY – kunci E] Berapa umur Andi sekarang?\n(1) Umur Andi dua kali umur Budi\n(2) Budi lebih muda dari Andi",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Pernyataan (1) SAJA cukup, tetapi (2) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Pernyataan (2) SAJA cukup, tetapi (1) SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "KEDUA pernyataan BERSAMA-SAMA cukup, tetapi masing-masing SAJA tidak cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "MASING-MASING pernyataan SAJA sudah cukup.",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Kedua pernyataan, sendiri-sendiri maupun bersama-sama, TIDAK cukup.",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Tidak ada nilai umur yang diketahui.\nJawaban benar E."
+ },
+ {
+  "nomor": 59,
+  "subtes": "TIU",
+  "kategori": "Figural - serial",
+  "soal": "[DUMMY – kunci D] Gambar yang tepat untuk mengisi tanda tanya adalah ...",
+  "gambar": "P0-059-soal.png",
+  "opsi": [
+   {
+    "label": "A",
+    "teks": null,
+    "gambar": "P0-059-A.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": null,
+    "gambar": "P0-059-B.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": null,
+    "gambar": "P0-059-C.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": null,
+    "gambar": "P0-059-D.png",
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": null,
+    "gambar": "P0-059-E.png",
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Bentuk berganti berurutan dan warna berselang-seling putih-hitam. Jawaban benar D."
+ },
+ {
+  "nomor": 60,
+  "subtes": "TIU",
+  "kategori": "Figural - serial",
+  "soal": "[DUMMY – kunci E] Gambar yang tepat untuk mengisi tanda tanya adalah ...",
+  "gambar": "P0-060-soal.png",
+  "opsi": [
+   {
+    "label": "A",
+    "teks": null,
+    "gambar": "P0-060-A.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": null,
+    "gambar": "P0-060-B.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": null,
+    "gambar": "P0-060-C.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": null,
+    "gambar": "P0-060-D.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": null,
+    "gambar": "P0-060-E.png",
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Bentuk berganti berurutan dan warna berselang-seling putih-hitam. Jawaban benar E."
+ },
+ {
+  "nomor": 61,
+  "subtes": "TIU",
+  "kategori": "Figural - serial",
+  "soal": "[DUMMY – kunci A] Gambar yang tepat untuk mengisi tanda tanya adalah ...",
+  "gambar": "P0-061-soal.png",
+  "opsi": [
+   {
+    "label": "A",
+    "teks": null,
+    "gambar": "P0-061-A.png",
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": null,
+    "gambar": "P0-061-B.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": null,
+    "gambar": "P0-061-C.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": null,
+    "gambar": "P0-061-D.png",
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": null,
+    "gambar": "P0-061-E.png",
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Bentuk berganti berurutan dan warna berselang-seling putih-hitam. Jawaban benar A."
+ },
+ {
+  "nomor": 62,
+  "subtes": "TIU",
+  "kategori": "Figural - ketidaksamaan",
+  "soal": "[DUMMY – kunci B] Gambar yang berbeda dari yang lain adalah ...",
+  "gambar": "P0-062-soal.png",
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Gambar A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Gambar B",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Gambar C",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Gambar D",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Gambar E",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Hanya gambar B yang bentuk dan warnanya berbeda."
+ },
+ {
+  "nomor": 63,
+  "subtes": "TIU",
+  "kategori": "Figural - ketidaksamaan",
+  "soal": "[DUMMY – kunci C] Gambar yang berbeda dari yang lain adalah ...",
+  "gambar": "P0-063-soal.png",
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Gambar A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Gambar B",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Gambar C",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Gambar D",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Gambar E",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Hanya gambar C yang bentuk dan warnanya berbeda."
+ },
+ {
+  "nomor": 64,
+  "subtes": "TIU",
+  "kategori": "Figural - ketidaksamaan",
+  "soal": "[DUMMY – kunci D] Gambar yang berbeda dari yang lain adalah ...",
+  "gambar": "P0-064-soal.png",
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Gambar A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Gambar B",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Gambar C",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Gambar D",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Gambar E",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Hanya gambar D yang bentuk dan warnanya berbeda."
+ },
+ {
+  "nomor": 65,
+  "subtes": "TIU",
+  "kategori": "Figural - ketidaksamaan",
+  "soal": "[DUMMY – kunci E] Gambar yang berbeda dari yang lain adalah ...",
+  "gambar": "P0-065-soal.png",
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Gambar A",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "B",
+    "teks": "Gambar B",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "C",
+    "teks": "Gambar C",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "D",
+    "teks": "Gambar D",
+    "gambar": null,
+    "benar": false,
+    "bobot": null
+   },
+   {
+    "label": "E",
+    "teks": "Gambar E",
+    "gambar": null,
+    "benar": true,
+    "bobot": null
+   }
+  ],
+  "pembahasan": "[DUMMY] Hanya gambar E yang bentuk dan warnanya berbeda."
+ },
+ {
+  "nomor": 66,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 66 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 67,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 67 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 68,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 68 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 69,
+  "subtes": "TKP",
+  "kategori": "Teknologi informasi dan komunikasi",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 69 untuk kategori teknologi informasi dan komunikasi. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 70,
+  "subtes": "TKP",
+  "kategori": "Profesionalisme",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 70 untuk kategori profesionalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 71,
+  "subtes": "TKP",
+  "kategori": "Anti radikalisme",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 71 untuk kategori anti radikalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 72,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 72 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 73,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 73 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 74,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 74 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 75,
+  "subtes": "TKP",
+  "kategori": "Teknologi informasi dan komunikasi",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 75 untuk kategori teknologi informasi dan komunikasi. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 76,
+  "subtes": "TKP",
+  "kategori": "Profesionalisme",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 76 untuk kategori profesionalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 77,
+  "subtes": "TKP",
+  "kategori": "Anti radikalisme",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 77 untuk kategori anti radikalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 78,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 78 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 79,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 79 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 80,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 80 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 81,
+  "subtes": "TKP",
+  "kategori": "Teknologi informasi dan komunikasi",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 81 untuk kategori teknologi informasi dan komunikasi. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 82,
+  "subtes": "TKP",
+  "kategori": "Profesionalisme",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 82 untuk kategori profesionalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 83,
+  "subtes": "TKP",
+  "kategori": "Anti radikalisme",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 83 untuk kategori anti radikalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 84,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 84 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 85,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 85 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 86,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 86 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 87,
+  "subtes": "TKP",
+  "kategori": "Teknologi informasi dan komunikasi",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 87 untuk kategori teknologi informasi dan komunikasi. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 88,
+  "subtes": "TKP",
+  "kategori": "Profesionalisme",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 88 untuk kategori profesionalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 89,
+  "subtes": "TKP",
+  "kategori": "Anti radikalisme",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 89 untuk kategori anti radikalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 90,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 90 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 91,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 91 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 92,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 92 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 93,
+  "subtes": "TKP",
+  "kategori": "Teknologi informasi dan komunikasi",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 93 untuk kategori teknologi informasi dan komunikasi. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 94,
+  "subtes": "TKP",
+  "kategori": "Profesionalisme",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 94 untuk kategori profesionalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 95,
+  "subtes": "TKP",
+  "kategori": "Anti radikalisme",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 95 untuk kategori anti radikalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 96,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 96 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 97,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 97 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 98,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 98 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 99,
+  "subtes": "TKP",
+  "kategori": "Teknologi informasi dan komunikasi",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 99 untuk kategori teknologi informasi dan komunikasi. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 100,
+  "subtes": "TKP",
+  "kategori": "Profesionalisme",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 100 untuk kategori profesionalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 101,
+  "subtes": "TKP",
+  "kategori": "Anti radikalisme",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 101 untuk kategori anti radikalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 102,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 102 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 103,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 103 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 104,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 104 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 105,
+  "subtes": "TKP",
+  "kategori": "Teknologi informasi dan komunikasi",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 105 untuk kategori teknologi informasi dan komunikasi. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ },
+ {
+  "nomor": 106,
+  "subtes": "TKP",
+  "kategori": "Profesionalisme",
+  "soal": "[DUMMY – bobot A1 B2 C5 D3 E4] Situasi kerja tiruan nomor 106 untuk kategori profesionalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "B",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "C",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "D",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "E",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi C bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A1 B2 C5 D3 E4."
+ },
+ {
+  "nomor": 107,
+  "subtes": "TKP",
+  "kategori": "Anti radikalisme",
+  "soal": "[DUMMY – bobot A2 B5 C3 D4 E1] Situasi kerja tiruan nomor 107 untuk kategori anti radikalisme. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "B",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "C",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "D",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "E",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi B bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A2 B5 C3 D4 E1."
+ },
+ {
+  "nomor": 108,
+  "subtes": "TKP",
+  "kategori": "Pelayanan publik",
+  "soal": "[DUMMY – bobot A5 B3 C4 D1 E2] Situasi kerja tiruan nomor 108 untuk kategori pelayanan publik. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "B",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "C",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "D",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "E",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi A bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A5 B3 C4 D1 E2."
+ },
+ {
+  "nomor": 109,
+  "subtes": "TKP",
+  "kategori": "Jejaring kerja",
+  "soal": "[DUMMY – bobot A3 B4 C1 D2 E5] Situasi kerja tiruan nomor 109 untuk kategori jejaring kerja. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   },
+   {
+    "label": "B",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "C",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "D",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "E",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi E bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A3 B4 C1 D2 E5."
+ },
+ {
+  "nomor": 110,
+  "subtes": "TKP",
+  "kategori": "Sosial budaya",
+  "soal": "[DUMMY – bobot A4 B1 C2 D5 E3] Situasi kerja tiruan nomor 110 untuk kategori sosial budaya. Seorang pegawai menghadapi permintaan mendadak di luar rencana kerja. Sikap yang paling tepat adalah ...",
+  "gambar": null,
+  "opsi": [
+   {
+    "label": "A",
+    "teks": "Membantu sebagian sambil mencatat kendala untuk perbaikan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 4
+   },
+   {
+    "label": "B",
+    "teks": "Menolak dan meminta pihak lain menyelesaikannya.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 1
+   },
+   {
+    "label": "C",
+    "teks": "Menunda sampai ada arahan atasan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 2
+   },
+   {
+    "label": "D",
+    "teks": "Menyelesaikan sesuai prosedur dan mencari solusi bersama pihak terkait.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 5
+   },
+   {
+    "label": "E",
+    "teks": "Menjelaskan aturan tanpa menawarkan bantuan.",
+    "gambar": null,
+    "benar": false,
+    "bobot": 3
+   }
+  ],
+  "pembahasan": "[DUMMY] Opsi D bernilai 5 karena menyelesaikan masalah sesuai prosedur sambil mencari solusi. Bobot: A4 B1 C2 D5 E3."
+ }
+]
