@@ -65,7 +65,7 @@ export async function afterLogin(): Promise<{ error?: string }> {
 
   const admin = createAdminClient();
   const [{ data: profile }, { data: settings }] = await Promise.all([
-    admin.from("profiles").select("role, active_device_id").eq("id", userId).maybeSingle(),
+    admin.from("profiles").select("role, active_device_id, reset_batas_at").eq("id", userId).maybeSingle(),
     admin.from("settings").select("batas_ganti_perangkat").eq("id", 1).maybeSingle(),
   ]);
   const device = await deviceId();
@@ -73,7 +73,10 @@ export async function afterLogin(): Promise<{ error?: string }> {
 
   if (profile?.role !== "admin") {
     const batas = settings?.batas_ganti_perangkat ?? 3;
-    const sejak = new Date(Date.now() - 24 * 3600_000).toISOString();
+    // Hitung login 24 jam terakhir, kecuali admin sudah me-reset batasnya.
+    const batas24 = Date.now() - 24 * 3600_000;
+    const reset = profile?.reset_batas_at ? new Date(profile.reset_batas_at).getTime() : 0;
+    const sejak = new Date(Math.max(batas24, reset)).toISOString();
     const { data: logins } = await admin
       .from("device_logins")
       .select("device_id")

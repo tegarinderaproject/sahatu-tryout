@@ -23,6 +23,7 @@ async function Isi() {
           <Link href="/admin/voucher" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">Voucher</Link>
           <Link href="/admin/bundling" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">Bundling</Link>
           <Link href="/admin/akses" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">Akses</Link>
+          <Link href="/admin/perangkat" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">Perangkat</Link>
           <Link href="/admin/laporan" className="rounded-xl border-2 border-cocoa px-3 py-2 font-bold text-cocoa">
             Laporan soal{laporanBaru ? ` · ${laporanBaru} baru` : ""}
           </Link>

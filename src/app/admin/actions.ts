@@ -289,3 +289,29 @@ export async function grantManual(_: ActionState, form: FormData): Promise<Actio
   revalidatePath("/admin/akses");
   return { ok: `Akses diberikan ke ${email}, berlaku sampai ${hasil.join(", ")}.` };
 }
+
+// ---------------- Tahap 7: perangkat & sesi ----------------
+
+/** Keluarkan akun dari SEMUA perangkat: cabut sesi + buat sesi aktif tidak cocok dengan perangkat mana pun. */
+export async function keluarkanSemua(userId: string) {
+  await requireAdmin();
+  const db = createAdminClient();
+  await db.rpc("revoke_sessions", { p_user: userId });
+  await db
+    .from("profiles")
+    .update({ active_session_id: crypto.randomUUID(), active_device_id: null })
+    .eq("id", userId);
+  await db
+    .from("device_logins")
+    .update({ dikeluarkan_pada: new Date().toISOString(), alasan: "admin" })
+    .eq("user_id", userId)
+    .is("dikeluarkan_pada", null);
+  revalidatePath("/admin/perangkat");
+}
+
+/** Login sebelum saat ini tidak dihitung lagi untuk batas ganti perangkat 24 jam. */
+export async function resetBatas(userId: string) {
+  await requireAdmin();
+  await createAdminClient().from("profiles").update({ reset_batas_at: new Date().toISOString() }).eq("id", userId);
+  revalidatePath("/admin/perangkat");
+}

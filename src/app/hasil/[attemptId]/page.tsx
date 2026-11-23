@@ -3,7 +3,9 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { notFound, redirect } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
+import { getAkses } from "@/lib/access";
 import { requireActiveUser } from "@/lib/auth";
+import { getRanking, posisiPeserta } from "@/lib/ranking";
 import type { SubtesResult } from "@/lib/exam/types";
 import { createAdminClient } from "@/lib/supabase/admin";
 
@@ -109,6 +111,60 @@ function Summary({ result }: { result: Hasil }) {
   );
 }
 
+async function RingkasanRanking({
+  userId,
+  partId,
+  partNama,
+  kode,
+  pertama,
+}: {
+  userId: string;
+  partId: string;
+  partNama: string;
+  kode: string;
+  pertama: boolean;
+}) {
+  const user = await requireActiveUser();
+  if (!(await getAkses(user, partId)).aktif) return null;
+  const ranking = await getRanking(partId);
+  const posisi = posisiPeserta(ranking, userId);
+  return (
+    <section aria-labelledby="rank" className="flex flex-col gap-3 rounded-2xl border border-beige bg-white p-5">
+      <div className="flex items-baseline justify-between gap-3">
+        <h2 id="rank" className="text-lg font-extrabold text-cocoa">
+          Ranking {partNama}
+        </h2>
+        <span className="text-xs text-muted">dari percobaan pertama</span>
+      </div>
+      {posisi ? (
+        <div className="flex justify-between rounded-xl bg-beige p-3 font-bold">
+          <span>Posisimu</span>
+          <span>
+            #{posisi.rank} dari {posisi.dari.toLocaleString("id-ID")} peserta
+          </span>
+        </div>
+      ) : (
+        <p className="text-sm text-muted">Akun admin tidak ikut ranking.</p>
+      )}
+      {!pertama && <p className="text-xs text-muted">Ranking memakai nilai percobaan pertamamu, bukan percobaan ini.</p>}
+      <ol className="flex flex-col">
+        {ranking.slice(0, 3).map((r) => (
+          <li key={r.rank} className="flex justify-between border-b border-cream py-2">
+            <span>
+              <strong className="inline-block w-7 text-cocoa">{r.rank}</strong>
+              {r.nama}
+            </span>
+            <strong>{r.total}</strong>
+          </li>
+        ))}
+      </ol>
+      <Link href={`/ranking?part=${kode}`} className="text-sm font-bold text-cocoa underline">
+        Lihat ranking lengkap
+      </Link>
+    </section>
+  );
+}
+
 type Hasil = {
   total: number;
   maks: number;
@@ -122,7 +178,7 @@ async function ResultView({ params }: { params: PageProps<"/hasil/[attemptId]">[
   const user = await requireActiveUser(`/hasil/${attemptId}`);
   const { data: a } = await createAdminClient()
     .from("attempts")
-    .select("id, user_id, selesai, total, lulus, waktu_habis, rincian, percobaan_ke, parts(nama, kode)")
+    .select("id, user_id, part_id, selesai, total, lulus, waktu_habis, rincian, percobaan_ke, parts(nama, kode)")
     .eq("id", attemptId)
     .maybeSingle();
   if (!a || a.user_id !== user.id) notFound();
@@ -158,6 +214,7 @@ async function ResultView({ params }: { params: PageProps<"/hasil/[attemptId]">[
         ))}
       </section>
       <p className="-mt-3 text-xs text-muted">Garis tegak di setiap bar = batas passing grade.</p>
+      <RingkasanRanking userId={user.id} partId={a.part_id} partNama={part.nama} kode={part.kode} pertama={a.percobaan_ke === 1} />
       <div className="flex flex-col gap-3 sm:flex-row">
         <Link
           href={`/pembahasan/${a.id}`}
