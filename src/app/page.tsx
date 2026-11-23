@@ -50,12 +50,14 @@ export default function Home() {
         >
           <SupabaseStatus />
         </Suspense>
-        <Link
-          href="/tryout/p0"
-          className="mt-6 block rounded-xl bg-cocoa px-5 py-3.5 font-bold text-cream hover:bg-charcoal"
-        >
-          Coba tryout contoh (110 soal)
-        </Link>
+        <div className="mt-6 flex flex-col gap-2">
+          <Link href="/dashboard" className="block rounded-xl bg-cocoa px-5 py-3.5 font-bold text-cream hover:bg-charcoal">
+            Masuk ke dashboard
+          </Link>
+          <Link href="/daftar" className="block rounded-xl border-2 border-cocoa px-5 py-3 font-bold text-cocoa">
+            Daftar akun baru
+          </Link>
+        </div>
       </div>
     </main>
   );
