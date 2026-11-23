@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import Link from "next/link";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
@@ -8,6 +9,7 @@ import { deletePart, setPartStatus } from "../../actions";
 import { UploadForm } from "./UploadForm";
 
 async function Isi({ params }: { params: PageProps<"/admin/part/[id]">["params"] }) {
+  await connection(); // data login selalu dibaca saat diminta
   await requireAdmin();
   const { id } = await params;
   const db = createAdminClient();

@@ -59,7 +59,8 @@ export async function saveAnswer(
   label: Label | null,
   ragu: boolean,
 ): Promise<SaveResult> {
-  const r = await getActiveUser();
+  // Tanpa menghapus cookie di sini, supaya halaman ujian bisa menampilkan pesan "dikeluarkan".
+  const r = await getActiveUser({ keluarkan: false });
   if (!r.user) return { ok: false, alasan: "perangkat-lain" };
   if (label !== null && !LABELS.has(label)) return { ok: false, alasan: "tidak-valid" };
 
@@ -107,6 +108,6 @@ export async function submitExam(attemptId: string) {
 
 /** Pengecekan cadangan tiap 60 detik: apakah sesi ini masih sesi aktif? */
 export async function checkSession(): Promise<boolean> {
-  const r = await getActiveUser();
+  const r = await getActiveUser({ keluarkan: false });
   return !!r.user;
 }

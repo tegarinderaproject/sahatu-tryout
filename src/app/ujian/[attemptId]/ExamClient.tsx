@@ -132,17 +132,20 @@ export function ExamClient({
   // ---------- Satu perangkat aktif: Realtime + cek cadangan tiap 60 detik ----------
   useEffect(() => {
     const supabase = createClient();
-    const channel = supabase
-      .channel(`profil-${userId}`)
-      .on(
-        "postgres_changes",
-        { event: "UPDATE", schema: "public", table: "profiles", filter: `id=eq.${userId}` },
-        (payload) => {
-          const aktif = (payload.new as { active_session_id?: string | null }).active_session_id;
-          if (aktif && aktif !== sessionId) setKicked(true);
-        },
-      )
-      .subscribe();
+    const channel = supabase.channel(`profil-${userId}`).on(
+      "postgres_changes",
+      { event: "UPDATE", schema: "public", table: "profiles", filter: `id=eq.${userId}` },
+      (payload) => {
+        const aktif = (payload.new as { active_session_id?: string | null }).active_session_id;
+        // Pastikan ke server dulu sebelum mengeluarkan (hindari salah keluar karena data lama).
+        if (aktif && aktif !== sessionId) void checkSession().then((ok) => !ok && setKicked(true));
+      },
+    );
+    // Pasang token login dulu, supaya Realtime boleh membaca baris profil sendiri (RLS).
+    void supabase.auth.getSession().then(async ({ data }) => {
+      if (data.session) await supabase.realtime.setAuth(data.session.access_token);
+      channel.subscribe();
+    });
     const poll = setInterval(async () => {
       try {
         if (!(await checkSession())) setKicked(true);

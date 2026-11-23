@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import Link from "next/link";
 import { Suspense } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -6,6 +7,7 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { CreatePartForm, SettingsForm } from "./forms";
 
 async function Isi() {
+  await connection(); // data login selalu dibaca saat diminta
   await requireAdmin();
   const db = createAdminClient();
   const [{ data: parts }, { data: settings }] = await Promise.all([

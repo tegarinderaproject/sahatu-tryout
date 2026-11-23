@@ -89,6 +89,7 @@ export async function afterLogin(): Promise<{ error?: string }> {
     }
   }
 
+  (await cookies()).delete("sahatu_dikeluarkan");
   const now = new Date().toISOString();
   // Tandai sesi lama sebagai dikeluarkan.
   await admin

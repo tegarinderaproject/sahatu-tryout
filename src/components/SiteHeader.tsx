@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
@@ -5,6 +6,7 @@ import { keluar } from "@/app/auth/actions/actions";
 import { getActiveUser } from "@/lib/auth";
 
 async function UserMenu() {
+  await connection(); // data login selalu dibaca saat diminta
   const { user } = await getActiveUser();
   if (!user) {
     return (

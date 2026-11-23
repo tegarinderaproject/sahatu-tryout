@@ -1,14 +1,18 @@
+import { connection } from "next/server";
 import { Suspense } from "react";
 import { AuthForm } from "@/components/AuthForm";
 import { SiteHeader } from "@/components/SiteHeader";
-import { PESAN_PERANGKAT_LAIN } from "@/lib/auth";
+import { cookies } from "next/headers";
+import { DIKELUARKAN_COOKIE, PESAN_PERANGKAT_LAIN } from "@/lib/auth";
 import { masuk } from "../auth/actions/actions";
 
 async function Isi({ searchParams }: { searchParams: PageProps<"/masuk">["searchParams"] }) {
+  await connection(); // data login selalu dibaca saat diminta
   const sp = await searchParams;
   const lanjut = typeof sp.lanjut === "string" ? sp.lanjut : "/dashboard";
+  const dikeluarkan = (await cookies()).has(DIKELUARKAN_COOKIE);
   const pesan =
-    sp.alasan === "perangkat-lain" ? PESAN_PERANGKAT_LAIN : typeof sp.pesan === "string" ? sp.pesan : null;
+    sp.alasan === "perangkat-lain" || dikeluarkan ? PESAN_PERANGKAT_LAIN : typeof sp.pesan === "string" ? sp.pesan : null;
   return (
     <>
       {pesan && (

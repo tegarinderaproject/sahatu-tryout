@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import Link from "next/link";
 import { Suspense } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -5,6 +6,7 @@ import { requireActiveUser } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 async function Isi() {
+  await connection(); // data login selalu dibaca saat diminta
   const user = await requireActiveUser("/dashboard");
   const db = createAdminClient();
   let partsQuery = db.from("parts").select("id, kode, nama, deskripsi, status").order("kode");

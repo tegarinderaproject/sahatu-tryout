@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import Link from "next/link";
 import { Suspense } from "react";
 import { notFound, redirect } from "next/navigation";
@@ -116,6 +117,7 @@ type Hasil = {
 };
 
 async function ResultView({ params }: { params: PageProps<"/hasil/[attemptId]">["params"] }) {
+  await connection(); // data login selalu dibaca saat diminta
   const { attemptId } = await params;
   const user = await requireActiveUser(`/hasil/${attemptId}`);
   const { data: a } = await createAdminClient()

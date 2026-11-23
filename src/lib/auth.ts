@@ -1,11 +1,14 @@
 import "server-only";
 
+import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { createAdminClient } from "./supabase/admin";
 import { createClient } from "./supabase/server";
 
 export const PESAN_PERANGKAT_LAIN =
   "Akunmu baru saja masuk di perangkat lain, jadi kamu dikeluarkan dari perangkat ini. Kalau itu bukan kamu, segera ganti password.";
+
+export const DIKELUARKAN_COOKIE = "sahatu_dikeluarkan";
 
 export type ActiveUser = {
   id: string;
@@ -20,7 +23,7 @@ export type ActiveUser = {
  * - null + "belum-login": tidak ada sesi.
  * - null + "perangkat-lain": akun sudah login di perangkat lain; sesi di sini dihapus.
  */
-export async function getActiveUser(): Promise<
+export async function getActiveUser({ keluarkan = true }: { keluarkan?: boolean } = {}): Promise<
   { user: ActiveUser; alasan?: undefined } | { user: null; alasan: "belum-login" | "perangkat-lain" }
 > {
   const supabase = await createClient();
@@ -36,7 +39,10 @@ export async function getActiveUser(): Promise<
 
   const sessionId = String(claims.session_id ?? "");
   if (profile?.active_session_id && profile.active_session_id !== sessionId) {
+    if (!keluarkan) return { user: null, alasan: "perangkat-lain" };
     try {
+      // Tanda supaya halaman /masuk menampilkan alasan dikeluarkan.
+      (await cookies()).set(DIKELUARKAN_COOKIE, "1", { maxAge: 600, path: "/", httpOnly: true, sameSite: "lax" });
       await supabase.auth.signOut({ scope: "local" });
     } catch {
       /* dipanggil dari Server Component: cookie tidak bisa dihapus di sini, proxy akan menyusul */

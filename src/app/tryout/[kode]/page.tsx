@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import Link from "next/link";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
@@ -12,6 +13,7 @@ import { startExam } from "@/app/ujian/actions";
 const sekarang = () => Date.now();
 
 async function Isi({ params }: { params: PageProps<"/tryout/[kode]">["params"] }) {
+  await connection(); // data login selalu dibaca saat diminta
   const { kode } = await params;
   const [part, settings, { user }] = await Promise.all([getPartByKode(kode), getSettings(), getActiveUser()]);
   if (!part || (part.status !== "terbit" && user?.role !== "admin")) notFound();

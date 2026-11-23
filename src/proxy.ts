@@ -26,7 +26,9 @@ export async function proxy(request: NextRequest) {
   const { data } = await supabase.auth.getClaims();
   const path = request.nextUrl.pathname;
   const butuhLogin = PERLU_LOGIN.some((p) => path === p || path.startsWith(p + "/"));
-  if (!data?.claims && butuhLogin) {
+  // Server action punya pengecekan login sendiri; jangan dialihkan di sini.
+  const isAction = request.headers.has("next-action");
+  if (!data?.claims && butuhLogin && !isAction) {
     const to = request.nextUrl.clone();
     to.pathname = "/masuk";
     to.search = `?lanjut=${encodeURIComponent(path)}`;
